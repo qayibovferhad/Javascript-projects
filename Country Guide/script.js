@@ -16,6 +16,7 @@ function fetchCountry() {
         result.innerHTML = `<h3>Please enter a valid country name.</h3>`;
       }
     });
+  countryInput.value = "";
 }
 
 function countryGuide(data) {
