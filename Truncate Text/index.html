@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Truncate Text App</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="txtareas">
+        <div>
+          <label for="input-text">Input Text:</label>
+          <textarea
+            id="input-text"
+            rows="5"
+            placeholder="Enter Text Here..."
+          ></textarea>
+        </div>
+        <div>
+          <label for="output-text">Output Text:</label>
+          <textarea
+            id="output-text"
+            rows="5"
+            placeholder="Output text will be displayed here..."
+          ></textarea>
+        </div>
+      </div>
+      <input type="number" value="10" id="len" />
+      <button id="truncate">Truncate</button>
+      <button id="copy">Copy</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
