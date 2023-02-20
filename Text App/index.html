@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fun With Text</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <textarea
+        rows="3"
+        placeholder="Type something here.."
+        id="my-text-box"
+      ></textarea>
+      <div id="result">Press Any Of The Buttons Below To Get Started</div>
+      <div class="buttons">
+        <button onclick="reverseStr()">Reverse</button>
+        <button onclick="isPalindrome()">Is Palindrome</button>
+      </div>
+      <div class="buttons">
+        <button onclick="charCount()">Character Count</button>
+        <button onclick="wordCount()">Word Count</button>
+      </div>
+      <div class="search-container">
+        <input
+          type="text"
+          id="search-text"
+          placeholder="Type the word to be searched"
+        />
+        <button onclick="search()">Search</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
